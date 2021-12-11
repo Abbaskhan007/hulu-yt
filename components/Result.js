@@ -13,4 +13,6 @@ const Result = forwardRef(({data},ref) =>  {
     );
 })
 
+Result.displayName = 'Result';
+
 export default Result;
